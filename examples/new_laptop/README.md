@@ -1,10 +1,13 @@
+```
 $ mvn --version
 Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
 Maven home: /opt/apache-maven-3.9.9
 Java version: 11.0.26, vendor: OpenLogic-OpenJDK, runtime: /opt/openjdk-11.0.26+4-linux-x64
 Default locale: en_US, platform encoding: UTF-8
 OS name: "linux", version: "6.12.11-200.fc41.x86_64", arch: "amd64", family: "unix"
+```
 
+```
 $ hostnamectl
      Static hostname: localhost
   Transient hostname: fedora
@@ -23,7 +26,9 @@ OS Support Remaining: 10month 1d
     Firmware Version: N48ET23W (1.10 )
        Firmware Date: Mon 2024-10-28
         Firmware Age: 3month 2w 1d
+```
 
+```
 $ lscpu
 Architecture:             x86_64
   CPU op-mode(s):         32-bit, 64-bit
@@ -86,3 +91,4 @@ Vulnerabilities:
                           illing; PBRSB-eIBRS Not affected; BHI BHI_DIS_S
   Srbds:                  Not affected
   Tsx async abort:        Not affected
+```

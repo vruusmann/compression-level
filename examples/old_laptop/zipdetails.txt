@@ -1,0 +1,304 @@
+
+0000 LOCAL HEADER #1       04034B50 (67324752)
+0004 Extract Zip Spec      0A (10) '1.0'
+0005 Extract OS            00 (0) 'MS-DOS'
+0006 General Purpose Flag  0800 (2048)
+     [Bit 11]              1 'Language Encoding'
+0008 Compression Method    0000 (0) 'Stored'
+000A Modification Time     5A4A9000 (1514835968) 'Mon Feb 10 18:00:00 2025'
+000E CRC                   00000000 (0)
+0012 Compressed Size       00000000 (0)
+0016 Uncompressed Size     00000000 (0)
+001A Filename Length       0009 (9)
+001C Extra Length          0000 (0)
+001E Filename              'META-INF/'
+
+0027 LOCAL HEADER #2       04034B50 (67324752)
+002B Extract Zip Spec      14 (20) '2.0'
+002C Extract OS            00 (0) 'MS-DOS'
+002D General Purpose Flag  0800 (2048)
+     [Bits 1-2]            0 'Normal Compression'
+     [Bit 11]              1 'Language Encoding'
+002F Compression Method    0008 (8) 'Deflated'
+0031 Modification Time     5A4A9000 (1514835968) 'Mon Feb 10 18:00:00 2025'
+0035 CRC                   0E762874 (242624628)
+0039 Compressed Size       00000051 (81)
+003D Uncompressed Size     00000051 (81)
+0041 Filename Length       0014 (20)
+0043 Extra Length          0000 (0)
+0045 Filename              'META-INF/MANIFEST.MF'
+0059 PAYLOAD               .M..LK-...K-*....R0.3..r.JM,IM.u..R.M,K.S.r.R..)M..S0.3.3..r*..I..J....HM.j...r..
+
+00AA LOCAL HEADER #3       04034B50 (67324752)
+00AE Extract Zip Spec      0A (10) '1.0'
+00AF Extract OS            00 (0) 'MS-DOS'
+00B0 General Purpose Flag  0800 (2048)
+     [Bit 11]              1 'Language Encoding'
+00B2 Compression Method    0000 (0) 'Stored'
+00B4 Modification Time     5A4A9000 (1514835968) 'Mon Feb 10 18:00:00 2025'
+00B8 CRC                   00000000 (0)
+00BC Compressed Size       00000000 (0)
+00C0 Uncompressed Size     00000000 (0)
+00C4 Filename Length       000F (15)
+00C6 Extra Length          0000 (0)
+00C8 Filename              'META-INF/maven/'
+
+00D7 LOCAL HEADER #4       04034B50 (67324752)
+00DB Extract Zip Spec      0A (10) '1.0'
+00DC Extract OS            00 (0) 'MS-DOS'
+00DD General Purpose Flag  0800 (2048)
+     [Bit 11]              1 'Language Encoding'
+00DF Compression Method    0000 (0) 'Stored'
+00E1 Modification Time     5A4A9000 (1514835968) 'Mon Feb 10 18:00:00 2025'
+00E5 CRC                   00000000 (0)
+00E9 Compressed Size       00000000 (0)
+00ED Uncompressed Size     00000000 (0)
+00F1 Filename Length       0019 (25)
+00F3 Extra Length          0000 (0)
+00F5 Filename              'META-INF/maven/org.jpmml/'
+
+010E LOCAL HEADER #5       04034B50 (67324752)
+0112 Extract Zip Spec      0A (10) '1.0'
+0113 Extract OS            00 (0) 'MS-DOS'
+0114 General Purpose Flag  0800 (2048)
+     [Bit 11]              1 'Language Encoding'
+0116 Compression Method    0000 (0) 'Stored'
+0118 Modification Time     5A4A9000 (1514835968) 'Mon Feb 10 18:00:00 2025'
+011C CRC                   00000000 (0)
+0120 Compressed Size       00000000 (0)
+0124 Uncompressed Size     00000000 (0)
+0128 Filename Length       002A (42)
+012A Extra Length          0000 (0)
+012C Filename              'META-INF/maven/org.jpmml/compression-test/'
+
+0156 LOCAL HEADER #6       04034B50 (67324752)
+015A Extract Zip Spec      14 (20) '2.0'
+015B Extract OS            00 (0) 'MS-DOS'
+015C General Purpose Flag  0800 (2048)
+     [Bits 1-2]            0 'Normal Compression'
+     [Bit 11]              1 'Language Encoding'
+015E Compression Method    0008 (8) 'Deflated'
+0160 Modification Time     5A4A9000 (1514835968) 'Mon Feb 10 18:00:00 2025'
+0164 CRC                   A3BD4CE2 (2747092194)
+0168 Compressed Size       00000204 (516)
+016C Uncompressed Size     00000589 (1417)
+0170 Filename Length       0031 (49)
+0172 Extra Length          0000 (0)
+0174 Filename              'META-INF/maven/org.jpmml/compression-test/pom.xml'
+01A5 PAYLOAD
+
+03A9 LOCAL HEADER #7       04034B50 (67324752)
+03AD Extract Zip Spec      14 (20) '2.0'
+03AE Extract OS            00 (0) 'MS-DOS'
+03AF General Purpose Flag  0800 (2048)
+     [Bits 1-2]            0 'Normal Compression'
+     [Bit 11]              1 'Language Encoding'
+03B1 Compression Method    0008 (8) 'Deflated'
+03B3 Modification Time     5A4A9000 (1514835968) 'Mon Feb 10 18:00:00 2025'
+03B7 CRC                   E34D7449 (3813504073)
+03BB Compressed Size       00000041 (65)
+03BF Uncompressed Size     00000043 (67)
+03C3 Filename Length       0038 (56)
+03C5 Extra Length          0000 (0)
+03C7 Filename              'META-INF/maven/org.jpmml/compression-test/pom.properties'
+03FF PAYLOAD               K,*.LKL..L.M..-(J-.....-I-..J/./-.J....e....p.....m...t.....=.C..
+
+0440 CENTRAL HEADER #1     02014B50 (33639248)
+0444 Created Zip Spec      14 (20) '2.0'
+0445 Created OS            03 (3) 'Unix'
+0446 Extract Zip Spec      0A (10) '1.0'
+0447 Extract OS            00 (0) 'MS-DOS'
+0448 General Purpose Flag  0800 (2048)
+     [Bit 11]              1 'Language Encoding'
+044A Compression Method    0000 (0) 'Stored'
+044C Modification Time     5A4A9000 (1514835968) 'Mon Feb 10 18:00:00 2025'
+0450 CRC                   00000000 (0)
+0454 Compressed Size       00000000 (0)
+0458 Uncompressed Size     00000000 (0)
+045C Filename Length       0009 (9)
+045E Extra Length          0000 (0)
+0460 Comment Length        0000 (0)
+0462 Disk Start            0000 (0)
+0464 Int File Attributes   0000 (0)
+     [Bit 0]               0 'Binary Data'
+0466 Ext File Attributes   41ED0010 (1106051088)
+     [Bit 4]               Directory
+     [Bits 16-24]          01ED (493) 'Unix attrib: rwxr-xr-x'
+     [Bits 28-31]          04 (4) 'Directory'
+046A Local Header Offset   00000000 (0)
+046E Filename              'META-INF/'
+#
+# WARNING: Offset 0x446: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'META-INF/'
+#
+
+0477 CENTRAL HEADER #2     02014B50 (33639248)
+047B Created Zip Spec      14 (20) '2.0'
+047C Created OS            03 (3) 'Unix'
+047D Extract Zip Spec      14 (20) '2.0'
+047E Extract OS            00 (0) 'MS-DOS'
+047F General Purpose Flag  0800 (2048)
+     [Bits 1-2]            0 'Normal Compression'
+     [Bit 11]              1 'Language Encoding'
+0481 Compression Method    0008 (8) 'Deflated'
+0483 Modification Time     5A4A9000 (1514835968) 'Mon Feb 10 18:00:00 2025'
+0487 CRC                   0E762874 (242624628)
+048B Compressed Size       00000051 (81)
+048F Uncompressed Size     00000051 (81)
+0493 Filename Length       0014 (20)
+0495 Extra Length          0000 (0)
+0497 Comment Length        0000 (0)
+0499 Disk Start            0000 (0)
+049B Int File Attributes   0000 (0)
+     [Bit 0]               0 'Binary Data'
+049D Ext File Attributes   81A40000 (2175008768)
+     [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+     [Bits 28-31]          08 (8) 'Regular File'
+04A1 Local Header Offset   00000027 (39)
+04A5 Filename              'META-INF/MANIFEST.MF'
+
+04B9 CENTRAL HEADER #3     02014B50 (33639248)
+04BD Created Zip Spec      14 (20) '2.0'
+04BE Created OS            03 (3) 'Unix'
+04BF Extract Zip Spec      0A (10) '1.0'
+04C0 Extract OS            00 (0) 'MS-DOS'
+04C1 General Purpose Flag  0800 (2048)
+     [Bit 11]              1 'Language Encoding'
+04C3 Compression Method    0000 (0) 'Stored'
+04C5 Modification Time     5A4A9000 (1514835968) 'Mon Feb 10 18:00:00 2025'
+04C9 CRC                   00000000 (0)
+04CD Compressed Size       00000000 (0)
+04D1 Uncompressed Size     00000000 (0)
+04D5 Filename Length       000F (15)
+04D7 Extra Length          0000 (0)
+04D9 Comment Length        0000 (0)
+04DB Disk Start            0000 (0)
+04DD Int File Attributes   0000 (0)
+     [Bit 0]               0 'Binary Data'
+04DF Ext File Attributes   41ED0010 (1106051088)
+     [Bit 4]               Directory
+     [Bits 16-24]          01ED (493) 'Unix attrib: rwxr-xr-x'
+     [Bits 28-31]          04 (4) 'Directory'
+04E3 Local Header Offset   000000AA (170)
+04E7 Filename              'META-INF/maven/'
+#
+# WARNING: Offset 0x4BF: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'META-INF/maven/'
+#
+
+04F6 CENTRAL HEADER #4     02014B50 (33639248)
+04FA Created Zip Spec      14 (20) '2.0'
+04FB Created OS            03 (3) 'Unix'
+04FC Extract Zip Spec      0A (10) '1.0'
+04FD Extract OS            00 (0) 'MS-DOS'
+04FE General Purpose Flag  0800 (2048)
+     [Bit 11]              1 'Language Encoding'
+0500 Compression Method    0000 (0) 'Stored'
+0502 Modification Time     5A4A9000 (1514835968) 'Mon Feb 10 18:00:00 2025'
+0506 CRC                   00000000 (0)
+050A Compressed Size       00000000 (0)
+050E Uncompressed Size     00000000 (0)
+0512 Filename Length       0019 (25)
+0514 Extra Length          0000 (0)
+0516 Comment Length        0000 (0)
+0518 Disk Start            0000 (0)
+051A Int File Attributes   0000 (0)
+     [Bit 0]               0 'Binary Data'
+051C Ext File Attributes   41ED0010 (1106051088)
+     [Bit 4]               Directory
+     [Bits 16-24]          01ED (493) 'Unix attrib: rwxr-xr-x'
+     [Bits 28-31]          04 (4) 'Directory'
+0520 Local Header Offset   000000D7 (215)
+0524 Filename              'META-INF/maven/org.jpmml/'
+#
+# WARNING: Offset 0x4FC: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'META-INF/maven/org.jpmml/'
+#
+
+053D CENTRAL HEADER #5     02014B50 (33639248)
+0541 Created Zip Spec      14 (20) '2.0'
+0542 Created OS            03 (3) 'Unix'
+0543 Extract Zip Spec      0A (10) '1.0'
+0544 Extract OS            00 (0) 'MS-DOS'
+0545 General Purpose Flag  0800 (2048)
+     [Bit 11]              1 'Language Encoding'
+0547 Compression Method    0000 (0) 'Stored'
+0549 Modification Time     5A4A9000 (1514835968) 'Mon Feb 10 18:00:00 2025'
+054D CRC                   00000000 (0)
+0551 Compressed Size       00000000 (0)
+0555 Uncompressed Size     00000000 (0)
+0559 Filename Length       002A (42)
+055B Extra Length          0000 (0)
+055D Comment Length        0000 (0)
+055F Disk Start            0000 (0)
+0561 Int File Attributes   0000 (0)
+     [Bit 0]               0 'Binary Data'
+0563 Ext File Attributes   41ED0010 (1106051088)
+     [Bit 4]               Directory
+     [Bits 16-24]          01ED (493) 'Unix attrib: rwxr-xr-x'
+     [Bits 28-31]          04 (4) 'Directory'
+0567 Local Header Offset   0000010E (270)
+056B Filename              'META-INF/maven/org.jpmml/compression-test/'
+#
+# WARNING: Offset 0x543: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'META-INF/maven/org.jpmml/compression-test/'
+#
+
+0595 CENTRAL HEADER #6     02014B50 (33639248)
+0599 Created Zip Spec      14 (20) '2.0'
+059A Created OS            03 (3) 'Unix'
+059B Extract Zip Spec      14 (20) '2.0'
+059C Extract OS            00 (0) 'MS-DOS'
+059D General Purpose Flag  0800 (2048)
+     [Bits 1-2]            0 'Normal Compression'
+     [Bit 11]              1 'Language Encoding'
+059F Compression Method    0008 (8) 'Deflated'
+05A1 Modification Time     5A4A9000 (1514835968) 'Mon Feb 10 18:00:00 2025'
+05A5 CRC                   A3BD4CE2 (2747092194)
+05A9 Compressed Size       00000204 (516)
+05AD Uncompressed Size     00000589 (1417)
+05B1 Filename Length       0031 (49)
+05B3 Extra Length          0000 (0)
+05B5 Comment Length        0000 (0)
+05B7 Disk Start            0000 (0)
+05B9 Int File Attributes   0000 (0)
+     [Bit 0]               0 'Binary Data'
+05BB Ext File Attributes   81A40000 (2175008768)
+     [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+     [Bits 28-31]          08 (8) 'Regular File'
+05BF Local Header Offset   00000156 (342)
+05C3 Filename              'META-INF/maven/org.jpmml/compression-test/pom.xml'
+
+05F4 CENTRAL HEADER #7     02014B50 (33639248)
+05F8 Created Zip Spec      14 (20) '2.0'
+05F9 Created OS            03 (3) 'Unix'
+05FA Extract Zip Spec      14 (20) '2.0'
+05FB Extract OS            00 (0) 'MS-DOS'
+05FC General Purpose Flag  0800 (2048)
+     [Bits 1-2]            0 'Normal Compression'
+     [Bit 11]              1 'Language Encoding'
+05FE Compression Method    0008 (8) 'Deflated'
+0600 Modification Time     5A4A9000 (1514835968) 'Mon Feb 10 18:00:00 2025'
+0604 CRC                   E34D7449 (3813504073)
+0608 Compressed Size       00000041 (65)
+060C Uncompressed Size     00000043 (67)
+0610 Filename Length       0038 (56)
+0612 Extra Length          0000 (0)
+0614 Comment Length        0000 (0)
+0616 Disk Start            0000 (0)
+0618 Int File Attributes   0000 (0)
+     [Bit 0]               0 'Binary Data'
+061A Ext File Attributes   81A40000 (2175008768)
+     [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+     [Bits 28-31]          08 (8) 'Regular File'
+061E Local Header Offset   000003A9 (937)
+0622 Filename              'META-INF/maven/org.jpmml/compression-test/pom.properties'
+
+065A END CENTRAL HEADER    06054B50 (101010256)
+065E Number of this disk   0000 (0)
+0660 Central Dir Disk no   0000 (0)
+0662 Entries in this disk  0007 (7)
+0664 Total Entries         0007 (7)
+0666 Size of Central Dir   0000021A (538)
+066A Offset to Central Dir 00000440 (1088)
+066E Comment Length        0000 (0)
+#
+# Warning Count: 4
+#
+# Done

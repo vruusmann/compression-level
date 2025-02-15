@@ -1,0 +1,12 @@
+Archive:  target/compression-test-1.0-SNAPSHOT.jar
+ Length   Method    Size  Cmpr    Date    Time   CRC-32   Name
+--------  ------  ------- ---- ---------- ----- --------  ----
+       0  Stored        0   0% 2025-02-10 18:00 00000000  META-INF/
+      81  Defl:N       81   0% 2025-02-10 18:00 0e762874  META-INF/MANIFEST.MF
+       0  Stored        0   0% 2025-02-10 18:00 00000000  META-INF/maven/
+       0  Stored        0   0% 2025-02-10 18:00 00000000  META-INF/maven/org.jpmml/
+       0  Stored        0   0% 2025-02-10 18:00 00000000  META-INF/maven/org.jpmml/compression-test/
+    1417  Defl:N      516  64% 2025-02-10 18:00 a3bd4ce2  META-INF/maven/org.jpmml/compression-test/pom.xml
+      67  Defl:N       65   3% 2025-02-10 18:00 e34d7449  META-INF/maven/org.jpmml/compression-test/pom.properties
+--------          -------  ---                            -------
+    1565              662  58%                            7 files

@@ -41,6 +41,28 @@ The expectation is to see identical JAR files (eg. as perceived by the `diff` to
 
 In reality, the results of the `new_laptop` are different from others: `unzip-v.txt` shows how the original entries size and CRC are the same, but not compressed size.
 
+See [`mvn/new_laptop/unzip-v.txt`](mvn/new_laptop/unzip-v.txt):
+```
+ Length   Method    Size  Cmpr    Date    Time   CRC-32   Name
+--------  ------  ------- ---- ---------- ----- --------  ----
+      81  Defl:N       83  -3% 02-10-2025 18:00 0e762874  META-INF/MANIFEST.MF
+    1417  Defl:N      521  63% 02-10-2025 18:00 a3bd4ce2  META-INF/maven/org.jpmml/compression-test/pom.xml
+      67  Defl:N       67   0% 02-10-2025 18:00 e34d7449  META-INF/maven/org.jpmml/compression-test/pom.properties
+```
+`META-INF/MANIFEST.MF` has a negative compression: compressed size is bigger than original size...
+
+Other environments like [`mvn/old_laptop/unzip-v.txt`](`mvn/old_laptop/unzip-v.txt`):
+```
+ Length   Method    Size  Cmpr    Date    Time   CRC-32   Name
+--------  ------  ------- ---- ---------- ----- --------  ----
+      81  Defl:N       81   0% 02-10-2025 18:00 0e762874  META-INF/MANIFEST.MF
+    1417  Defl:N      516  64% 02-10-2025 18:00 a3bd4ce2  META-INF/maven/org.jpmml/compression-test/pom.xml
+      67  Defl:N       65   3% 02-10-2025 18:00 e34d7449  META-INF/maven/org.jpmml/compression-test/pom.properties
+```
+have a better result.
+
+Notice: compression is done using [`plexus-archiver`'s `JarArchiver`](https://github.com/codehaus-plexus/plexus-archiver/blob/master/src/main/java/org/codehaus/plexus/archiver/jar/JarArchiver.java), that uses `commons-compress`.
+
 ## `zip/` Command-line `zip`
 
 For reference, the `zip` directory contains command-line zip compression results:

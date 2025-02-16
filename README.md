@@ -42,3 +42,10 @@ zip -9 <computer>/text-9.zip test.txt
 ```
 
 Results is that size of zip files is not dependent on environment: only Maven jar files are impacted.
+
+## `java/` Java compression using `java.util.zip(.ZipOutputStream)`
+
+For reference, the `java` directory contains Java programmatic compression results.
+
+The compression target is the `zip/test.txt` file.
+The compression is performed using different compression levels (odd values `1`, `3`, `5`, `7` and `9`).

@@ -2,6 +2,19 @@ Investigations around hardware-dependent JAR compression level, as first reporte
 
 ie. [`new_laptop`](mvn/new_laptop) gets different compression results from any other: [`old_laptop`](examples/old_laptop), [`mac_arm64`](examples/mac_arm64)
 
+# Working hypothesis
+
+The behaviour of the following piece of Java code is **hardware dependent**!?
+
+```java
+java.util.zip.ZipOutputStream zipOs = ...
+
+# Request best compression
+zipOs.setLevel(9);
+```
+
+See https://github.com/vruusmann/compression-level/pull/3#issuecomment-2661363250
+
 # Testing
 
 Run:

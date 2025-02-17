@@ -57,3 +57,4 @@ echo "====== Comparing results from available environments"
 
 for f in mvn/*/unzip-v.txt ; do echo $f ; cat $f | grep -v Stored ; done
 for c in 1 3 5 7 9 ; do echo ; ls -l zip/*/*$c.zip ; done
+for v in 8 11 17 21 ; do echo ; for z in java/*/openjdk-$v*.zip ; do echo $z ; unzip -v $z ; done ; done

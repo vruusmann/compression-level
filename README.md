@@ -4,13 +4,13 @@ ie. [`new_laptop`](mvn/new_laptop) gets different compression results from any o
 
 # Working hypothesis
 
-The behaviour of the following piece of Java code is **hardware dependent**!?
+The behaviour of the following piece of Java code is **hardware dependent** since JDK 11 (but not JDK 8), and only when `level < 9`!?
 
 ```java
 java.util.zip.ZipOutputStream zipOs = ...
 
-# Request best compression
-zipOs.setLevel(9);
+# Request compression level
+zipOs.setLevel(level);
 ```
 
 See https://github.com/vruusmann/compression-level/pull/3#issuecomment-2661363250
@@ -84,3 +84,34 @@ For reference, the `java` directory contains Java programmatic compression resul
 
 The compression target is the `zip/test.txt` file.
 The compression is performed using different compression levels (odd values `1`, `3`, `5`, `7` and `9`).
+
+Result shows that with JDK 8, results are consistent on old and new laptop. But with JDK 11+, compression levels < 9 give different results:
+
+- old_laptop:
+```
+ Length   Method    Size  Cmpr    Date    Time   CRC-32   Name
+--------  ------  ------- ---- ---------- ----- --------  ----
+    2878  Defl:N     1297  55% 1970-01-01 01:00 a0b574ab  test-1.txt
+    2878  Defl:N     1285  55% 1970-01-01 01:00 a0b574ab  test-3.txt
+    2878  Defl:N     1239  57% 1970-01-01 01:00 a0b574ab  test-5.txt
+    2878  Defl:N     1239  57% 1970-01-01 01:00 a0b574ab  test-7.txt
+    2878  Defl:N     1239  57% 1970-01-01 01:00 a0b574ab  test-9.txt
+--------          -------  ---                            -------
+   14390             6299  56%                            5 files
+```
+
+- new_laptop:
+```
+ Length   Method    Size  Cmpr    Date    Time   CRC-32   Name
+--------  ------  ------- ---- ---------- ----- --------  ----
+    2878  Defl:N     1243  57% 1970-01-01 01:00 a0b574ab  test-1.txt
+    2878  Defl:N     1234  57% 1970-01-01 01:00 a0b574ab  test-3.txt
+    2878  Defl:N     1218  58% 1970-01-01 01:00 a0b574ab  test-5.txt
+    2878  Defl:N     1218  58% 1970-01-01 01:00 a0b574ab  test-7.txt
+    2878  Defl:N     1239  57% 1970-01-01 01:00 a0b574ab  test-9.txt
+--------          -------  ---                            -------
+   14390             6152  57%                            5 files
+```
+
+New laptop gives better compression results for compression levels 5 and 7 than 9???
+Notice: luckily, compression level 9 gives same result on every hardware: only lower compression levels than 9 give a compression result varying based on hardware.
